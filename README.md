@@ -4,7 +4,6 @@
 ### Aim: To Write a Python Program to subtract two matrices by reading the matrix from the user.
 
 ### Algorithm:
-
 STEP 1: Start.
 STEP 2: Create a variable r and c for rows and columns of the matrix.
 STEP 3: Get the value of r and c from user.
