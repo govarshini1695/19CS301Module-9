@@ -58,21 +58,18 @@ STEP 7 : Stop.
 
 ### Program:
 ```
-class program:
+class Generate:
+    def __init__(self, first,d,last):
+        self.first = first
+        self.d = d
+        self.last=last
+    def Ap_generate(self):
+        L=[i for i in range(self.first,self.last+1,self.d)]
+        return L
+Series = Generate(200,2,300)
+print(Series.Ap_generate())
 
-      def  __init__(self,a,b,c):
-                self.a=a
-                self.b=b
-                self.c=c
-        def display(self):
-               even = [i for i in range(self.a,self.c+1,self.b)]
-               print(even)
-a = int(input())
-b = int(input())
-c = int(input())
 
-obj = program(a,b,c)
-obj.display()
 ```
 ### Output:
  ![image](https://github.com/user-attachments/assets/a9707d46-2d47-4472-a6b3-b407a6f6ef71)
@@ -80,22 +77,17 @@ obj.display()
 ### Result: Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.3 ADVANCED LIST PROCESSING
+
 ### Aim: To Write a Python program to Find the transpose of a matrix using list Comprehension.
 
 ### Algorithm:
 
 STEP 1: Start.
-
 STEP 2: Create a variable r and c for rows and columns. 
-
 STEP 3: Get the value of r and c from user.
-
 STEP 4: Define a function to create the matrix.
-
 STEP 5 : Using list comprehension find the transpose of the matrix.
-
 STEP 6: Print the result.
-
 STEP 7 : Stop.
 
 ### Program:
